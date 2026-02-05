@@ -21,6 +21,7 @@ function checkAnswer() {
   }
 
   current++;
+
   if (current < flags.length) {
     setTimeout(showFlag, 1500);
   } else {
